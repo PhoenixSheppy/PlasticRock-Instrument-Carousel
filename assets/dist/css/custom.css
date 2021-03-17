@@ -151,9 +151,19 @@
       height: calc(100vh - 152px);
     }
 
-    /* carousel button color */
+    /* carousel button color/icon */
+
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
-      filter: invert(1);
+      background-image: url("../../img/pick.svg") !important;
+      fill: rgba(10, 10, 12, 0.7) !important;
+    }
+
+    .carousel-control-prev-icon {
+      transform: rotate(90deg);
+    }
+
+    .carousel-control-next-icon {
+      transform: rotate(-90deg);
     }
    
